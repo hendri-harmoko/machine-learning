@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
 # Load the dataset
-file_path = "/Users/hendriharmoko/Desktop/myLLMs/machine-learning/daily-bike-share.csv"
+file_path = "../../Data/daily-bike-share.csv"
 data = pd.read_csv(file_path)
 
 # Convert 'dteday' to datetime
